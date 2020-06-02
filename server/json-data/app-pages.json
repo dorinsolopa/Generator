@@ -1,0 +1,137 @@
+[
+  {
+    "path": "/page-a",
+    "linkTitle": "Posts",
+    "pageTitle": "POSTS LOREM IPSUM",
+    "pageDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "table": {
+      "apiEndpoint": "https://jsonplaceholder.typicode.com/posts/1/comments",
+      "columns": [
+        {
+          "title": "Post Id",
+          "key": "id"
+        },
+        {
+          "title": "Name",
+          "key": "name"
+        },
+        {
+          "title": "Email",
+          "key": "email",
+          "element": "email"
+        },
+        {
+          "title": "Comment",
+          "key": "body",
+          "element": "readMore"
+        }
+      ]
+    }
+  },
+  {
+    "path": "/page-b",
+    "linkTitle": "Users",
+    "pageTitle": "USERS HODOR IPSUM",
+    "pageDescription": "Hodor. Hodor hodor, hodor. Hodor hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor; hodor hodor hodor. Hodor. Hodor hodor; hodor hodor - hodor, hodor, hodor hodor. Hodor, hodor. Hodor. Hodor, hodor hodor hodor; hodor hodor; hodor hodor hodor! Hodor hodor HODOR! Hodor hodor... Hodor hodor hodor...",
+    "table": {
+      "apiEndpoint": "https://jsonplaceholder.typicode.com/users",
+      "columns": [
+        {
+          "title": "Name",
+          "key": "name"
+        },
+        {
+          "title": "Username",
+          "key": "username"
+        },
+        {
+          "title": "Email",
+          "key": "email",
+          "element": "email"
+        },
+        {
+          "title": "Phone",
+          "key": "phone",
+          "element": "phone"
+        },
+        {
+          "title": "Website",
+          "key": "website",
+          "element": "link"
+        }
+      ]
+    }
+  },
+  {
+    "path": "/page-c",
+    "linkTitle": "ToDos",
+    "pageTitle": "TODOS TRUMP IPSUM",
+    "pageDescription": "Lorem Ipsum is the single greatest threat. We are not - we are not keeping up with other websites. Lorem Ipsum best not make any more threats to your website. It will be met with fire and fury like the world has never seen. Does everybody know that pig named Lorem Ipsum? An ‘extremely credible source’ has called my office and told me that Barack Obama’s placeholder text is a fraud.",
+    "table": {
+      "apiEndpoint": "https://jsonplaceholder.typicode.com/todos",
+      "columns": [
+        {
+          "title": "User Id",
+          "key": "userId"
+        },
+        {
+          "title": "Task",
+          "key": "title"
+        },
+        {
+          "title": "Completed",
+          "key": "completed",
+          "element": "tick"
+        }
+      ]
+    }
+  },
+  {
+    "path": "/page-d",
+    "linkTitle": "Photos",
+    "pageTitle": "PHOTOS HIPSTER IPSUM",
+    "pageDescription": "Lorem ipsum dolor amet mustache knausgaard +1, blue bottle waistcoat tbh semiotics artisan synth stumptown gastropub cornhole celiac swag. Brunch raclette vexillologist post-ironic glossier ennui XOXO mlkshk godard pour-over blog tumblr humblebrag. Blue bottle put a bird on it twee prism biodiesel brooklyn. Blue bottle ennui tbh succulents.",
+    "table": {
+      "apiEndpoint": "https://jsonplaceholder.typicode.com/albums/1/photos",
+      "columns": [
+        {
+          "title": "Image",
+          "key": "thumbnailUrl",
+          "element": "image"
+        },
+        {
+          "title": "Title",
+          "key": "title"
+        },
+        {
+          "title": "Url",
+          "key": "url",
+          "element": "link"
+        }
+      ]
+    }
+  },
+  {
+    "path": "/page-e",
+    "linkTitle": "Albums",
+    "pageTitle": "ALBUMS BACON IPSUM",
+    "pageDescription": "Bacon ipsum dolor amet short ribs brisket venison rump drumstick pig sausage prosciutto chicken spare ribs salami picanha doner. Kevin capicola sausage, buffalo bresaola venison turkey shoulder picanha ham pork tri-tip meatball meatloaf ribeye. Doner spare ribs andouille bacon sausage. Ground round jerky brisket pastrami shank.",
+    "table": {
+      "apiEndpoint": "https://jsonplaceholder.typicode.com/users/1/albums",
+      "columns": [
+        {
+          "title": "Id",
+          "key": "id"
+        },
+        {
+          "title": "User Id",
+          "key": "userId"
+        },
+        {
+          "title": "Album Name",
+          "key": "title"
+        }
+      ]
+    }
+  }
+]
