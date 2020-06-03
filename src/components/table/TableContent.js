@@ -1,4 +1,5 @@
 import React from "react";
+import getComponent from "./GetComponent";
 
 class TableContent extends React.Component {
   constructor(props) {
@@ -38,7 +39,12 @@ class TableContent extends React.Component {
                 return (
                   <tr>
                     {this.props.table.columns.map((column) => {
-                      return <td>{item[column.key]}</td>;
+                      const Component = getComponent(column.element);
+                      return (
+                        <td>
+                          <Component value={item[column.key]} />
+                        </td>
+                      );
                     })}
                   </tr>
                 );
